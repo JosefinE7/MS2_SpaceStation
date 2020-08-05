@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
 /* General styling */
 
 body {
@@ -8,9 +10,39 @@ body {
 
 /* start navigation */
 
-.page-header.menu.navbar.navbarbrand{
+.page-header .menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem; 
 
 } 
 
+.page-header .menu .navbar{
+    padding: 1rem 20rem;
+}
 
+.page-header .menu .nav-item .nav-link{
+    font-family: "Mulish", 'Courier New', Courier, monospace;
+    font-weight: 400;
+    padding: 1rem;
+    color: darkslategray;
+}
+
+.page-header .menu .navbar-nav .active a{
+    background: #F08080;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.page-header .menu .navbar-nav a:hover{
+    background: #F08080;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
 /* end navigation */
