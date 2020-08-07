@@ -1,12 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-
-/* General styling */
-
-body {
-    font-family: "Mulish", 'Courier New', Courier, monospace;
-}
 
 /* start navigation */
 
@@ -46,3 +40,45 @@ body {
     font-weight: 900;
 }
 /* end navigation */
+
+/* start page top area */
+
+.page-main .page-top {
+    background: url(/SpaceStation/img/background-ms2.); /*add white background*/
+    background-position: 0% 50%;
+    padding: 1rem 20rem; 
+}
+
+.page-main .page-top .page-title h4 {
+    padding-top: 35%;
+    font-size: 25px; 
+}
+
+.page-main .page-top .page-title h1 {
+    font-size: 75px;
+    color: red;
+}
+
+.page-main .page-top .page-title h3 {
+    font-size: 35px;
+    font-weight: 700; /*download this font so it works fw 500*/
+}
+
+.page-main .page-top .page-img > img {
+    padding-top: 35px;
+    padding-left: 80px;
+}
+
+.title-text {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 69px;
+    font-family: "Mulish", 'Courier New', Courier, monospace;
+}
+
+.space-icon {
+    padding: 0px 0px;
+    font-size: 45px;
+}
+
+/* end page top area */
