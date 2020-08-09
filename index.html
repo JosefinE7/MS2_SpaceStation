@@ -8,9 +8,13 @@
 	<!-- Bootsrap css-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+	<!--Font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
 		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-	<!-- custom css file -->
+	<!-- Magnific Popup css file -->
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+    
+    <!-- custom css file -->
 	<link rel="stylesheet" href="SpaceStation/css/style.css">
 </head>
 
@@ -132,8 +136,10 @@
 				<div class="row grid"> <!--ERROR: get images closer together if i have time-->
 					<div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
 						<div class="pictures">
-                            <img src="SpaceStation/img/gallery/ms2-gallery2.jpg" alt="ISS image number one">
-						</div>
+                            <a class="test-popup-link" href="/SpaceStation/img/gallery/ms2-gallery2.jpg">
+                                <img src="/SpaceStation/img/gallery/ms2-gallery2.jpg" alt="ISS image number one">
+                            </a>
+                        </div>
                         <div class="img-description py-4">
                             <h4 class="text-uppercase">first img</h4>
                             <span class="text-secondary">further info</span>
@@ -142,8 +148,10 @@
 					</div>
                     <div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
 						<div class="pictures">
-                            <img src="SpaceStation/img/gallery/ms2-gallery3.jpg" alt="ISS image number two">
-						</div>
+                            <a class="test-popup-link" href="/SpaceStation/img/gallery/ms2-gallery2.jpg">
+                                <img src="SpaceStation/img/gallery/ms2-gallery3.jpg" alt="ISS image number two">
+                            </a>
+                        </div>
                         <div class="img-description py-4">
                             <h4 class="text-uppercase">Second img</h4>
                             <span class="text-secondary">further info</span>
@@ -233,17 +241,21 @@
 	<!---------------------------- End Main ------------------------------>
 
 
-	<!-- JS links -->
+	<!-- Jquery -->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
 		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
 	</script>
+    <!-- Bootstrap -->
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
-	<!-- /JS links -->
+	<!-- Magnific popup -->
+    <script src="magnific-popup/jquery.magnific-popup.js"></script>
+    
+
     <!--custom js file -->
     <script src="SpaceStation/js/main.js"></script>
 </body>
