@@ -82,3 +82,21 @@
 }
 
 /* end page top area */
+
+/* Start About section*/
+
+.page-main .about-section {
+    padding: 177px 75px;
+}
+
+.page-main .about-section .about-text h2 > span{
+    display: block;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 50px;
+    font-family: "Mulish", 'Courier New', Courier, monospace;
+    letter-spacing: 21px;
+}
+
+
+/* End About section*/
