@@ -200,7 +200,7 @@ footer.footer-section {
 footer.footer-section .social-media a > i {
     font-size: 25px;
     padding: 30px;
-    color: lightgray;
+    color: dimgrey;
 }
 
 footer.footer-section .social-media .facebook:hover > i  {
