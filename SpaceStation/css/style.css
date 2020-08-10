@@ -47,7 +47,7 @@
 /* start page top area */
 
 .page-main .page-top {
-    background: url(/SpaceStation/img/background-ms2.); /*add white background*/
+    background: url(#); /*add white background*/
     background-position: 0% 50%;
     padding: 75px 320px; 
 }
@@ -103,6 +103,11 @@
 
 
 /* End About section*/
+
+/* Start ISS-Map section*/
+#iss-map {}
+
+/* End ISS-Map section*/
 
 /* Start Gallery section*/
 
