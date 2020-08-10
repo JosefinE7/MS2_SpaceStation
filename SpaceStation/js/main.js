@@ -1,5 +1,14 @@
 $(document).ready(function () {
 
+  const mymap = L.map('iss-map').setView([0, 0], 1);
+
+  const attribution = 
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+
+  const tileUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';    
+  const tiles = L.tileLayer(tileUrl,{ attribution });
+  tiles.addTo(mymap);
+
   const iss_url = "https://api.wheretheiss.at/v1/satellites/25544"  
   async function getISS() {
       const response = await fetch(iss_url);
