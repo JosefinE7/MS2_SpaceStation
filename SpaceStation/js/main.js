@@ -6,9 +6,20 @@ $(document).ready(function () {
     gallery:{enabled:true}
   });
 
-
+  //code below copied from Owl carousel
+  $(".page-main .quotes-section .owl-carousel").owlCarousel({
+      loop: true,
+      autoplay: true,
+      dots: true,
+      responsive:{
+          0: {
+              items:1
+          },
+          544:{
+              items:2
+          }
+      }
+  })
 });
 
 
-//<link rel="stylesheet" href="SpaceStation/Magnific-popup/dist/magnific-popup.css">
-// <script src="SpaceStation/Magnific-popup/dist/magnific-popup.min.js"></script>
