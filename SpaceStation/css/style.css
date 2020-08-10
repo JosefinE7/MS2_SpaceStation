@@ -186,8 +186,32 @@
 
 */ 
 
-
-
-
-
 /* End Quotes section*/
+
+/* Start Footer section */
+
+footer.footer-section {
+    padding: 75px 0;
+}
+
+footer.footer-section .social-media a > i {
+    font-size: 25px;
+    padding: 30px;
+    color: lightgray;
+}
+
+footer.footer-section .social-media .facebook:hover > i  {
+    color: blue;
+}
+
+footer.footer-section .social-media .instagram:hover > i  {
+    color: deeppink;
+}
+
+footer.footer-section .social-media .youtube:hover > i  {
+    color: red;
+}
+
+
+
+/* End Footer section */
