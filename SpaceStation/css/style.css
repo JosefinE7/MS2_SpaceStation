@@ -3,10 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 /* start navigation */
+.page-header .menu .navbar {
+    border-bottom: 1px #778899;
+    box-shadow: 2px 5px 18px #888888;
+}
 
 .page-header .menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem; 
-
 } 
 
 .page-header .menu .navbar{
@@ -46,7 +49,7 @@
 .page-main .page-top {
     background: url(/SpaceStation/img/background-ms2.); /*add white background*/
     background-position: 0% 50%;
-    padding: 1rem 20rem; 
+    padding: 75px 320px; 
 }
 
 .page-main .page-top .page-title h4 {
