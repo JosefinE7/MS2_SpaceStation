@@ -6,6 +6,10 @@ space-station-drawing https://freesvg.org/international-space-station-vector-dra
 
 space-station-rl https://www.flickr.com/photos/samchurchill/4343762727
 
+astronaut https://pixabay.com/photos/astronaut-isolated-protective-suit-2844244/
+
+iss-logo2.png https://en.wikipedia.org/wiki/File:ISS_insignia.svg
+
 GALLERY IMG:
 
 ms2-gallery1 https://www.flickr.com/photos/nasaearthobservatory/6792427300
