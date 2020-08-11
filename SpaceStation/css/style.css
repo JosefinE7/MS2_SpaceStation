@@ -136,7 +136,7 @@
 .page-main .RT-section .map h1 {
     font-family: "Russo One", 'Courier New', Courier, monospace;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 21px;
 }
 
@@ -155,7 +155,6 @@
     height: 350px;
     width: 550px;
 }
-
 
 /* End ISS-Map section*/
 
@@ -248,15 +247,7 @@
     padding: 0 20px;
 }
 
-/* styling for dot .about-section
-.page-main .quotes-section .owl-carousel .owl-dots .owl-dot.active span {
-    background: darkslategray;
-    height: 15px;
-    width: 15px;
 
-}
-
-*/ 
 
 /* End Quotes section*/
 
