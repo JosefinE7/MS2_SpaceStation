@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+
+
+
 /* start navigation */
 .page-header .menu .navbar {
     border-bottom: 1px #778899;
@@ -10,6 +16,7 @@
 
 .page-header .menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem; 
+    font-family: "Russo One", 'Courier New', Courier, monospace;
 } 
 
 .page-header .menu .navbar{
@@ -17,21 +24,21 @@
 }
 
 .page-header .menu .nav-item .nav-link{
-    font-family: "Mulish", 'Courier New', Courier, monospace;
+    font-family: "Coda", 'Courier New', Courier, monospace;
     font-weight: 400;
     padding: 1rem;
-    color: darkslategray;
+    color:#2F4F4F;
 }
 
 .page-header .menu .navbar-nav .active a{
-    background: #F08080;
+    background: #FF0000;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .page-header .menu .navbar-nav a:hover{
-    background: #F08080;
+    background: #FF0000;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -54,17 +61,21 @@
 
 .page-main .page-top .page-title h4 {
     padding-top: 35%;
-    font-size: 25px; 
+    font-size: 25px;
+    font-family: "Russo One", 'Courier New', Courier, monospace;
+
 }
 
 .page-main .page-top .page-title h1 {
     font-size: 75px;
-    color: red;
+    color: #FF0000;
+    font-family: "Russo One", 'Courier New', Courier, monospace;
 }
 
 .page-main .page-top .page-title h3 {
     font-size: 35px;
     font-weight: 700; /*download this font so it works fw 500*/
+    font-family: "Russo One", 'Courier New', Courier, monospace;
 }
 
 .page-main .page-top .banner-image > img {
@@ -76,7 +87,7 @@
     font-style: normal;
     font-weight: bold;
     line-height: 69px;
-    font-family: "Mulish", 'Courier New', Courier, monospace;
+    font-family: "Coda", 'Courier New', Courier, monospace;
 }
 
 .space-icon {
@@ -98,9 +109,14 @@
     font-weight: 800;
     font-size: 35px;
     line-height: 35px;
-    font-family: "Mulish", 'Courier New', Courier, monospace;
+    font-family: "Russo One", 'Courier New', Courier, monospace;
     letter-spacing: 21px;
     padding-top: 0;
+}
+
+.page-main .about-section .about-text .about-information {
+    font-family: "Coda", 'Courier New', Courier, monospace;
+
 }
 
 
@@ -112,16 +128,34 @@
     background: url(/SpaceStation/img/background.png);
     padding: 150px 0;
 }
+
+.page-main .RT-section .map {
+    padding: 15px 0;
+}
+
+.page-main .RT-section .map h1 {
+    font-family: "Russo One", 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 21px;
+}
+
+.page-main .RT-section .quotes-title {
+    background: #ffffff;
+}
+
+.page-main .RT-section .quotes-title p {
+    font-family: "Coda", 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: 7px;
+}
+
 #iss-map {
     height: 350px;
     width: 550px;
 }
 
-/*.map {
-    display: table-cell;
-    padding: 30px 0px 30px 320px;
-    float: none; 
-}*/
 
 /* End ISS-Map section*/
 
@@ -132,7 +166,15 @@
     padding: 125px 0;
 }
 
-.gallery-item {
+.page-main .gallery-section .gallery-title {
+    font-family: "Russo One", 'Courier New', Courier, monospace;
+    line-height: 15px;
+    font-weight: 800;
+    font-size: 75px;
+    letter-spacing: 15px;
+}
+
+.page-main .gallery-section .gallery-item {
     padding: 10px 0;
 }
 
@@ -156,31 +198,32 @@
     background: url(/SpaceStation/img/background.png);
 }
 
-.page-main .quotes-section .quotes-title {
-    padding: 100px 75px 25px 75px;
+.page-main .quotes-section .quote-header {
+    padding: 150px 75px 25px 50px;
 }
 
 .page-main .quotes-section .quotes-title h1{
-    line-height: 50px;
-    letter-spacing: 21px;
-    font-size: 35px;
+    font-family: "Russo One", 'Courier New', Courier, monospace;
+    line-height: 15px;
     font-weight: 800;
+    font-size: 35px;
+    letter-spacing: 15px;
     
 }
 
-.page-main .quotes-section .quotes-title h1 span{
+.page-main .quotes-section .quotes-title h1 > span{
     font-size: 45px;
-    text-decoration: underline;
-    text-decoration-color: red;
+    
 }
 
 .page-main .quotes-section .quotes-title p{
-    padding-top: 35px;
+    padding-top: 50px;
+    font-family: "Mulish", 'Courier New', Courier, monospace;
 }
 
 .page-main .quotes-section .astronaut {
     border: 1px solid #BFBFBF;
-    background-color: white;
+    background-color: #F8F8FF;
     box-shadow: 5px 5px 2.5px #aaaaaa;
     margin: 45px 0;
 }
@@ -221,24 +264,25 @@
 
 footer.footer-section {
     padding: 75px 0;
+    font-family: "Russo One", 'Courier New', Courier, monospace;
 }
 
 footer.footer-section .social-media a > i {
     font-size: 25px;
     padding: 30px;
-    color: dimgrey;
+    color: #696969;
 }
 
 footer.footer-section .social-media .facebook:hover > i  {
-    color: blue;
+    color: #0000FF;
 }
 
 footer.footer-section .social-media .instagram:hover > i  {
-    color: deeppink;
+    color: #FF69B4;
 }
 
 footer.footer-section .social-media .youtube:hover > i  {
-    color: red;
+    color: #FF0000;
 }
 
 
