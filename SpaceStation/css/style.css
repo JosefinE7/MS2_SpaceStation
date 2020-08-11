@@ -46,10 +46,10 @@
 
 /* start page top area */
 
-.page-main .page-top {
-    background: url(#); /*add white background*/
+.page-main .page-top  {
+    background: url(/SpaceStation/img/background.png); /*add white background*/
     background-position: 0% 50%;
-    padding: 75px 320px; 
+    padding: 75px 320px 85px 320px; 
 }
 
 .page-main .page-top .page-title h4 {
@@ -67,8 +67,8 @@
     font-weight: 700; /*download this font so it works fw 500*/
 }
 
-.page-main .page-top .page-img > img {
-    padding-top: 35px;
+.page-main .page-top .banner-image > img {
+    padding-top: 75px;
     padding-left: 80px;
 }
 
@@ -89,22 +89,29 @@
 /* Start About section*/
 
 .page-main .about-section {
-    padding: 177px 75px;
+    background: url(/SpaceStation/img/background.png);
+    padding: 100px 75px;
 }
 
 .page-main .about-section .about-text h2 > span{
     display: block;
     font-weight: 800;
     font-size: 35px;
-    line-height: 50px;
+    line-height: 35px;
     font-family: "Mulish", 'Courier New', Courier, monospace;
     letter-spacing: 21px;
+    padding-top: 0;
 }
 
 
 /* End About section*/
 
 /* Start ISS-Map section*/
+
+.page-main .RT-section {
+    background: url(/SpaceStation/img/background.png);
+    padding: 150px 0;
+}
 #iss-map {
     height: 350px;
     width: 550px;
@@ -121,7 +128,8 @@
 /* Start Gallery section*/
 
 .page-main .gallery-section {
-    padding: 60px 0;
+    background: url(/SpaceStation/img/background.png);
+    padding: 125px 0;
 }
 
 .gallery-item {
@@ -143,6 +151,10 @@
 /* End Gallery section*/
 
 /* Start Quotes section*/
+
+.page-main .quotes-section {
+    background: url(/SpaceStation/img/background.png);
+}
 
 .page-main .quotes-section .quotes-title {
     padding: 100px 75px 25px 75px;
