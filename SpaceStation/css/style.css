@@ -110,6 +110,12 @@
     width: 550px;
 }
 
+/*.map {
+    display: table-cell;
+    padding: 30px 0px 30px 320px;
+    float: none; 
+}*/
+
 /* End ISS-Map section*/
 
 /* Start Gallery section*/

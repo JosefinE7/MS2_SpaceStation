@@ -40,7 +40,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav ml-auto">
+					<ul class="navbar-nav ml-auto nav-scroll">
 						<li class="nav-item">
 							<a class="nav-link" href="#page-top">Home<span class="sr-only">(current)</span></a>
 						</li>
@@ -128,19 +128,29 @@
 
 		<!---------------------------- Start ISS-Map section ------------------------------>
 		<section class="RT-section" id="RT-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 offset-lg-4 col-md-12">
-                        <h3 class="text-uppercase text-center">Where is the ISS RIGHT NOW?</h3>
-                        <p>Latitude: <span id="lat"></span><br>
-                        Longitude: <span id="long"></span><br>
-                        Altitude: <span id="alt"></span><br>
-                        Velocity: <span id="vel"></span>
-                        </p>
+           <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3 map">
+                        <h1 class="text-uppercase text-center">Where is the ISS RIGHT NOW?</span></h1>
+                        <div id="iss-map"></div>
                     </div>
-				</div>
-			</div>
-            <div id="iss-map"></div>
+                </div>
+           </div>
+           
+            <div class="container">
+                <div class="row text-center"><!---CONTAINS BOOTSTRAP CLASS-->
+                    <div class="col-12">
+                        <div class="quotes-title">
+                            <p class="text-center">Latitude: <span id="lat"></span>°<br>
+                              Longitude: <span id="long"></span>°<br>
+                              Altitude: <span id="alt"></span> miles<br>
+                              Velocity: <span id="vel"></span> mph
+                            </p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            
 		</section>
 
 		<!---------------------------- End ISS-Map section ------------------------------>
@@ -370,6 +380,7 @@
    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
    crossorigin=""></script>
 
+   
     <!--custom js file -->
     <script src="SpaceStation/js/main.js"></script>
 </body>

@@ -1,5 +1,9 @@
 $(document).ready(function () {
+
   
+
+  // Start Location R-T section
+
   // making a map and tiles
   const mymap = L.map('iss-map').setView([0, 0], 1);
     const attribution = 
@@ -19,24 +23,31 @@ $(document).ready(function () {
   const marker = L.marker([0, 0], {icon: issIcon} ).addTo(mymap);
 
 
+  const iss_url = "https://api.wheretheiss.at/v1/satellites/25544";
   
-
-  const iss_url = "https://api.wheretheiss.at/v1/satellites/25544"  
+  let firstTime = true;
   async function getISS() {
       const response = await fetch(iss_url);
       const data = await response.json();
       const { latitude, longitude, altitude, velocity } = data;
 
-      //L.marker([latitude, longitude]).addTo(mymap);
       marker.setLatLng([latitude, longitude]);
+      if (firstTime) {
+      mymap.setView([latitude, longitude], 2);
+      firstTime = false;
+      }
 
-      document.getElementById("lat").textContent = latitude;
-      document.getElementById("long").textContent = longitude;
-      document.getElementById("alt").textContent = altitude;
-      document.getElementById("vel").textContent = velocity;
+      document.getElementById("lat").textContent = latitude.toFixed(3);
+      document.getElementById("long").textContent = longitude.toFixed(3);
+      document.getElementById("alt").textContent = altitude.toFixed(3);
+      document.getElementById("vel").textContent = velocity.toFixed(3);
     }
    
   getISS();
+
+  setInterval(getISS, 1000)
+   
+  // End Location R-T section
 
   
     //code below copied from Magnific Popup
