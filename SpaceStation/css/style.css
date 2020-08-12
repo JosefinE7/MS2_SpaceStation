@@ -1,98 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Coda&display=swap");
 
 /* start navigation */
 .page-header .menu .navbar {
-    border-bottom: 1px #778899;
-    box-shadow: 2px 5px 18px #888888;
+	border-bottom: 1px #778899;
+	box-shadow: 2px 5px 18px #888888;
 }
 
-.page-header .menu .navbar .navbar-brand{
-    padding: 0 2rem 0 5rem; 
-    font-family: "Russo One", 'Courier New', Courier, monospace;
-} 
-
-.page-header .menu .navbar{
-    padding: 1rem 20rem;
+.page-header .menu .navbar .navbar-brand {
+	padding: 0 2rem 0 5rem;
+	font-family: "Russo One", "Courier New", Courier, monospace;
 }
 
-.page-header .menu .nav-item .nav-link{
-    font-family: "Coda", 'Courier New', Courier, monospace;
-    font-weight: 400;
-    padding: 1rem;
-    color:#2F4F4F;
+.page-header .menu .navbar {
+	padding: 1rem 20rem;
 }
 
-.page-header .menu .navbar-nav .active a{
-    background: #FF0000;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.page-header .menu .nav-item .nav-link {
+	font-family: "Coda", "Courier New", Courier, monospace;
+	font-weight: 400;
+	padding: 1rem;
+	color: #2f4f4f;
 }
 
-.page-header .menu .navbar-nav a:hover{
-    background: #FF0000;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.page-header .menu .navbar-nav .active a {
+	background: #ff0000;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
 }
 
-.navbar-brand{
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: 900;
+.page-header .menu .navbar-nav a:hover {
+	background: #ff0000;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 900;
 }
 /* end navigation */
 
 /* start page top area */
 
-.page-main .page-top  {
-    background: url(/SpaceStation/img/background.png); /*add white background*/
-    background-position: 0% 50%;
-    padding: 75px 320px 85px 320px; 
+.page-main .page-top {
+	background: url(/SpaceStation/img/background.png); /*add white background*/
+	background-position: 0% 50%;
+	padding: 75px 320px 85px 320px;
 }
 
 .page-main .page-top .page-title h4 {
-    padding-top: 35%;
-    font-size: 25px;
-    font-family: "Russo One", 'Courier New', Courier, monospace;
-
+	padding-top: 35%;
+	font-size: 25px;
+	font-family: "Russo One", "Courier New", Courier, monospace;
 }
 
 .page-main .page-top .page-title h1 {
-    font-size: 75px;
-    color: #FF0000;
-    font-family: "Russo One", 'Courier New', Courier, monospace;
+	font-size: 75px;
+	color: #ff0000;
+	font-family: "Russo One", "Courier New", Courier, monospace;
 }
 
 .page-main .page-top .page-title h3 {
-    font-size: 35px;
-    font-weight: 700; /*download this font so it works fw 500*/
-    font-family: "Russo One", 'Courier New', Courier, monospace;
+	font-size: 35px;
+	font-weight: 700; /*download this font so it works fw 500*/
+	font-family: "Russo One", "Courier New", Courier, monospace;
 }
 
 .page-main .page-top .banner-image > img {
-    padding-top: 75px;
-    padding-left: 80px;
+	padding-top: 75px;
+	padding-left: 80px;
 }
 
 .title-text {
-    font-style: normal;
-    font-weight: bold;
-    line-height: 69px;
-    font-family: "Coda", 'Courier New', Courier, monospace;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 69px;
+	font-family: "Coda", "Courier New", Courier, monospace;
 }
 
 .space-icon {
-    padding: 0px 0px;
-    font-size: 45px;
+	padding: 0px 0px;
+	font-size: 45px;
 }
 
 /* end page top area */
@@ -100,60 +97,58 @@
 /* Start About section*/
 
 .page-main .about-section {
-    background: url(/SpaceStation/img/background.png);
-    padding: 100px 75px;
+	background: url(/SpaceStation/img/background.png);
+	padding: 100px 75px;
 }
 
-.page-main .about-section .about-text h2 > span{
-    display: block;
-    font-weight: 800;
-    font-size: 35px;
-    line-height: 35px;
-    font-family: "Russo One", 'Courier New', Courier, monospace;
-    letter-spacing: 21px;
-    padding-top: 0;
+.page-main .about-section .about-text h2 > span {
+	display: block;
+	font-weight: 800;
+	font-size: 35px;
+	line-height: 35px;
+	font-family: "Russo One", "Courier New", Courier, monospace;
+	letter-spacing: 21px;
+	padding-top: 0;
 }
 
 .page-main .about-section .about-text .about-information {
-    font-family: "Coda", 'Courier New', Courier, monospace;
-
+	font-family: "Coda", "Courier New", Courier, monospace;
 }
-
 
 /* End About section*/
 
 /* Start ISS-Map section*/
 
 .page-main .RT-section {
-    background: url(/SpaceStation/img/background.png);
-    padding: 150px 0;
+	background: url(/SpaceStation/img/background.png);
+	padding: 150px 0;
 }
 
 .page-main .RT-section .map {
-    padding: 15px 0;
+	padding: 15px 0;
 }
 
 .page-main .RT-section .map h1 {
-    font-family: "Russo One", 'Courier New', Courier, monospace;
-    font-weight: 800;
-    font-size: 30px;
-    letter-spacing: 21px;
+	font-family: "Russo One", "Courier New", Courier, monospace;
+	font-weight: 800;
+	font-size: 30px;
+	letter-spacing: 21px;
 }
 
 .page-main .RT-section .quotes-title {
-    background: #ffffff;
+	background: #ffffff;
 }
 
 .page-main .RT-section .quotes-title p {
-    font-family: "Coda", 'Courier New', Courier, monospace;
-    font-weight: 800;
-    font-size: 15px;
-    letter-spacing: 7px;
+	font-family: "Coda", "Courier New", Courier, monospace;
+	font-weight: 800;
+	font-size: 15px;
+	letter-spacing: 7px;
 }
 
 #iss-map {
-    height: 350px;
-    width: 550px;
+	height: 350px;
+	width: 550px;
 }
 
 /* End ISS-Map section*/
@@ -161,32 +156,31 @@
 /* Start Gallery section*/
 
 .page-main .gallery-section {
-    background: url(/SpaceStation/img/background.png);
-    padding: 125px 0;
+	background: url(/SpaceStation/img/background.png);
+	padding: 125px 0;
 }
 
 .page-main .gallery-section .gallery-title {
-    font-family: "Russo One", 'Courier New', Courier, monospace;
-    line-height: 15px;
-    font-weight: 800;
-    font-size: 75px;
-    letter-spacing: 15px;
+	font-family: "Russo One", "Courier New", Courier, monospace;
+	line-height: 15px;
+	font-weight: 800;
+	font-size: 75px;
+	letter-spacing: 15px;
 }
 
 .page-main .gallery-section .gallery-item {
-    padding: 10px 0;
+	padding: 10px 0;
 }
 
 .page-main .gallery-section .grid .img-description h4 {
-    font-weight: 800;
-    font-size: 25px;
-    line-height: 12px;
-    font-family: "Mulish", 'Courier New', Courier, monospace;
+	font-weight: 800;
+	font-size: 25px;
+	line-height: 12px;
+	font-family: "Mulish", "Courier New", Courier, monospace;
+}
 
-} 
-
-.page-main .gallery-section .grid .pictures a:hover img{
-    filter: brightness(1.3)drop-shadow(1px 8px 30px #778899);
+.page-main .gallery-section .grid .pictures a:hover img {
+	filter: brightness(1.3) drop-shadow(1px 8px 30px #778899);
 }
 
 /* End Gallery section*/
@@ -194,37 +188,35 @@
 /* Start Quotes section*/
 
 .page-main .quotes-section {
-    background: url(/SpaceStation/img/background.png);
+	background: url(/SpaceStation/img/background.png);
 }
 
 .page-main .quotes-section .quote-header {
-    padding: 150px 75px 25px 50px;
+	padding: 150px 75px 25px 50px;
 }
 
-.page-main .quotes-section .quotes-title h1{
-    font-family: "Russo One", 'Courier New', Courier, monospace;
-    line-height: 15px;
-    font-weight: 800;
-    font-size: 35px;
-    letter-spacing: 15px;
-    
+.page-main .quotes-section .quotes-title h1 {
+	font-family: "Russo One", "Courier New", Courier, monospace;
+	line-height: 15px;
+	font-weight: 800;
+	font-size: 35px;
+	letter-spacing: 15px;
 }
 
-.page-main .quotes-section .quotes-title h1 > span{
-    font-size: 45px;
-    
+.page-main .quotes-section .quotes-title h1 > span {
+	font-size: 45px;
 }
 
-.page-main .quotes-section .quotes-title p{
-    padding-top: 50px;
-    font-family: "Mulish", 'Courier New', Courier, monospace;
+.page-main .quotes-section .quotes-title p {
+	padding-top: 50px;
+	font-family: "Mulish", "Courier New", Courier, monospace;
 }
 
 .page-main .quotes-section .astronaut {
-    border: 1px solid #BFBFBF;
-    background-color: #F8F8FF;
-    box-shadow: 5px 5px 2.5px #aaaaaa;
-    margin: 45px 0;
+	border: 1px solid #bfbfbf;
+	background-color: #f8f8ff;
+	box-shadow: 5px 5px 2.5px #aaaaaa;
+	margin: 45px 0;
 }
 
 /*
@@ -234,48 +226,44 @@
 */
 
 .page-main .quotes-section .astronaut .astronaut-img {
-    padding: 30px;
+	padding: 30px;
 }
 
-.page-main .quotes-section .astronaut .astronaut-quote{
-    padding-top: 30px;
+.page-main .quotes-section .astronaut .astronaut-quote {
+	padding-top: 30px;
 }
 
 .page-main .quotes-section .owl-carousel .owl-item {
-    display: flex;
-    justify-content: center;
-    padding: 0 20px;
+	display: flex;
+	justify-content: center;
+	padding: 0 20px;
 }
-
-
 
 /* End Quotes section*/
 
 /* Start Footer section */
 
 footer.footer-section {
-    padding: 75px 0;
-    font-family: "Russo One", 'Courier New', Courier, monospace;
+	padding: 75px 0;
+	font-family: "Russo One", "Courier New", Courier, monospace;
 }
 
 footer.footer-section .social-media a > i {
-    font-size: 25px;
-    padding: 30px;
-    color: #696969;
+	font-size: 25px;
+	padding: 30px;
+	color: #696969;
 }
 
-footer.footer-section .social-media .facebook:hover > i  {
-    color: #0000FF;
+footer.footer-section .social-media .facebook:hover > i {
+	color: #0000ff;
 }
 
-footer.footer-section .social-media .instagram:hover > i  {
-    color: #FF69B4;
+footer.footer-section .social-media .instagram:hover > i {
+	color: #ff69b4;
 }
 
-footer.footer-section .social-media .youtube:hover > i  {
-    color: #FF0000;
+footer.footer-section .social-media .youtube:hover > i {
+	color: #ff0000;
 }
-
-
 
 /* End Footer section */
