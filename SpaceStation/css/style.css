@@ -104,10 +104,10 @@
 .page-main .about-section .about-text h2 > span {
 	display: block;
 	font-weight: 800;
-	font-size: 35px;
-	line-height: 35px;
+	font-size: 30px;
+	line-height: 30px;
 	font-family: "Russo One", "Courier New", Courier, monospace;
-	letter-spacing: 21px;
+	letter-spacing: 17px;
 	padding-top: 0;
 }
 
