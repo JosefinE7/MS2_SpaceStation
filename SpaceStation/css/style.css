@@ -21,6 +21,12 @@
 	padding: 16px 320px;
 }
 
+.page-header .menu .navbar .navbar-brand {
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
 .page-header .menu .nav-item .nav-link {
 	font-family: "Coda", "Courier New", Courier, monospace;
 	font-weight: 400;
@@ -42,11 +48,6 @@
 	background-clip: text;
 }
 
-.navbar-brand {
-	font-size: 30px;
-	text-transform: uppercase;
-	font-weight: 900;
-}
 /* end navigation */
 
 /* start page top area */
@@ -72,7 +73,7 @@
 .page-main .page-top .page-title h1::after {
 	content: "";
 	height: 2px;
-	width: 7vw;
+	width: 10vw;
 	background: #ff0000;
 	display: inline-block;
 }
@@ -143,7 +144,7 @@
 	letter-spacing: 21px;
 }
 
-.page-main .RT-section .quotes-title {
+.page-main .RT-section .quotes-title p {
 	background: #ffffff;
 }
 
