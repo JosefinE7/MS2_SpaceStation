@@ -13,18 +13,18 @@
 }
 
 .page-header .menu .navbar .navbar-brand {
-	padding: 0 2rem 0 5rem;
+	padding: 0 32px 0 80px;
 	font-family: "Russo One", "Courier New", Courier, monospace;
 }
 
 .page-header .menu .navbar {
-	padding: 1rem 20rem;
+	padding: 16px 320px;
 }
 
 .page-header .menu .nav-item .nav-link {
 	font-family: "Coda", "Courier New", Courier, monospace;
 	font-weight: 400;
-	padding: 1rem;
+	padding: 16px;
 	color: #2f4f4f;
 }
 
