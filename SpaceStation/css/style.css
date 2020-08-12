@@ -169,14 +169,20 @@
 }
 
 .page-main .gallery-section .gallery-item {
-	padding: 10px 0;
+	padding: 10px 0 45px 0;
 }
 
-.page-main .gallery-section .grid .img-description h4 {
-	font-weight: 800;
-	font-size: 25px;
-	line-height: 12px;
-	font-family: "Mulish", "Courier New", Courier, monospace;
+.page-main .gallery-section .gallery-item .gallery-item-3 {
+	padding-left: 10;
+	margin-left: 0;
+}
+
+.page-main .gallery-section .gallery-item .pictures {
+	padding: 10px 10px 55px 10px;
+	border: 1px solid #bfbfbf;
+	background-color: #f8f8ff;
+	box-shadow: 5px 5px 2.5px #aaaaaa;
+	margin: 15px 15px;
 }
 
 .page-main .gallery-section .grid .pictures a:hover img {
