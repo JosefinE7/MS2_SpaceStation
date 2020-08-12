@@ -252,6 +252,11 @@
 footer.footer-section {
 	padding: 75px 0;
 	font-family: "Russo One", "Courier New", Courier, monospace;
+	background: url(/SpaceStation/img/background.png);
+}
+
+footer.footer-section .iss-logo {
+	padding: 40px 0;
 }
 
 footer.footer-section .social-media a > i {
