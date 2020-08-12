@@ -69,6 +69,15 @@
 	font-family: "Russo One", "Courier New", Courier, monospace;
 }
 
+.page-main .page-top .page-title h1::after {
+	content: "";
+	height: 2px;
+	width: 7vw;
+	background: #ff0000;
+	display: inline-block;
+	margin-left: ;
+}
+
 .page-main .page-top .page-title h3 {
 	font-size: 35px;
 	font-weight: 700; /*download this font so it works fw 500*/
