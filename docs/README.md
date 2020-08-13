@@ -16,11 +16,11 @@ ms2-gallery1 https://www.flickr.com/photos/nasaearthobservatory/6792427300
 
 ms2-gallery2 https://pixabay.com/photos/cosmonaut-spacewalk-iss-tools-suit-582544/
 
-ms2-gallery3 https://picryl.com/media/international-space-station-iss-5f0902
+ms2-gallery3 https://pxhere.com/sv/photo/1066080
 
-ms2-gallery4 https://www.maxpixel.net/Window-Iss-International-Space-Station-Earth-1030777
+ms2-gallery4 https://www.needpix.com/photo/495775/satellite-iss-northern-lights-aurora-borealis-international-space-station-space-spaceship-station-science
 
-ms2-gallery5 https://www.nasa.gov/mission_pages/station/main/s114e7221_feature.html
+ms2-gallery5 https://www.flickr.com/photos/nasacommons/36510207981
 
 ms2-gallery6 https://commons.wikimedia.org/wiki/File:ISS-56_International_Space_Station_fly-around_(05).jpg
 
