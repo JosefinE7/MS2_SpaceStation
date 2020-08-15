@@ -134,7 +134,7 @@
 
 .page-main .RT-section {
 	background: url(/SpaceStation/img/background.png);
-	padding: 150px 0;
+	padding: 125px 0;
 }
 
 .page-main .RT-section .map {
@@ -148,15 +148,16 @@
 	letter-spacing: 21px;
 }
 
-.page-main .RT-section .quotes-title p {
-	background: #ffffff;
+.page-main .RT-section .quotes-title {
+	padding-top: 55px;
+	padding-left: 75px;
 }
 
 .page-main .RT-section .quotes-title p {
-	font-family: "Coda", "Courier New", Courier, monospace;
-	font-weight: 800;
-	font-size: 15px;
-	letter-spacing: 7px;
+	font-family: "Russo One", "Courier New", Courier, monospace;
+	font-weight: 700;
+	font-size: 25px;
+	letter-spacing: 15px;
 }
 
 #iss-map {
