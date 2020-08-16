@@ -108,7 +108,7 @@ main.page-main {
 
 /* end page top area */
 
-/* Start About section*/
+/* start About section*/
 
 .page-main .about-section {
 	background: url("https://JosefinE7.github.io/MS2_SpaceStation/SpaceStation/img/background.png");
@@ -129,9 +129,9 @@ main.page-main {
 	font-family: "Coda", "Courier New", Courier, monospace;
 }
 
-/* End About section*/
+/* end About section*/
 
-/* Start ISS-Map section*/
+/* start ISS-Map section*/
 
 .page-main .RT-section {
 	background: url("https://JosefinE7.github.io/MS2_SpaceStation/SpaceStation/img/background.png");
@@ -172,9 +172,9 @@ main.page-main {
 	width: 800px;
 }
 
-/* End ISS-Map section*/
+/* end ISS-Map section*/
 
-/* Start Gallery section*/
+/* start Gallery section*/
 
 .page-main .gallery-section {
 	background: url("https://JosefinE7.github.io/MS2_SpaceStation/SpaceStation/img/background.png");
@@ -210,9 +210,9 @@ main.page-main {
 	filter: brightness(1.2) drop-shadow(1px 8px 30px #778899);
 }
 
-/* End Gallery section*/
+/* end Gallery section*/
 
-/* Start Quotes section*/
+/* start Quotes section*/
 
 .page-main .quotes-section {
 	background: url("https://JosefinE7.github.io/MS2_SpaceStation/SpaceStation/img/background.png");
@@ -267,9 +267,9 @@ main.page-main {
 	padding: 0 20px;
 }
 
-/* End Quotes section*/
+/* end Quotes section*/
 
-/* Start Footer section */
+/* start Footer section */
 
 footer.footer-section {
 	padding: 75px 0;
@@ -299,4 +299,4 @@ footer.footer-section .social-media .youtube:hover > i {
 	color: #ff0000;
 }
 
-/* End Footer section */
+/* end Footer section */
