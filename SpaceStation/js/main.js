@@ -2,34 +2,34 @@ $(document).ready(function () {
 	// Start Location R-T section
 
 	// making a map and tiles
-	const mymap = L.map("iss-map").setView([0, 0], 1);
-	const attribution =
+	const MY_MAP = L.map("iss-map").setView([0, 0], 1);
+	const ATTRIBUTION =
 		'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 
-	const tileUrl = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
-	const tiles = L.tileLayer(tileUrl, { attribution });
-	tiles.addTo(mymap);
+	const TILE_URL = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+	const TILES = L.tileLayer(TILE_URL, { ATTRIBUTION });
+	TILES.addTo(MY_MAP);
 
-	// making a marker with a costume icon
+	// making a marker with a custom icon
 	var issIcon = L.icon({
 		iconUrl: "SpaceStation/img/iss-map-icon.png",
 		iconSize: [50, 32],
 		iconAnchor: [25, 16],
 	});
 
-	const marker = L.marker([0, 0], { icon: issIcon }).addTo(mymap);
+	const MARKER = L.marker([0, 0], { icon: issIcon }).addTo(MY_MAP);
 
-	const iss_url = "https://api.wheretheiss.at/v1/satellites/25544";
+	const ISS_URL = "https://api.wheretheiss.at/v1/satellites/25544";
 
 	let firstTime = true;
 	async function getISS() {
-		const response = await fetch(iss_url);
-		const data = await response.json();
-		const { latitude, longitude, altitude, velocity } = data;
+		const RESPONSE = await fetch(ISS_URL);
+		const DATA = await RESPONSE.json();
+		const { latitude, longitude, altitude, velocity } = DATA;
 
-		marker.setLatLng([latitude, longitude]);
+		MARKER.setLatLng([latitude, longitude]);
 		if (firstTime) {
-			mymap.setView([latitude, longitude], 2);
+			MY_MAP.setView([latitude, longitude], 2);
 			firstTime = false;
 		}
 
