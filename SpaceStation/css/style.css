@@ -51,10 +51,6 @@
 /* end navigation */
 
 /* start page top area */
-.page-main {
-	background: url(SpaceStation/img/background.png);
-	background-position: 0% 50%;
-}
 
 .page-main .page-top {
 	background: url(/SpaceStation/img/background.png);
@@ -150,14 +146,20 @@
 
 .page-main .RT-section .quotes-title {
 	padding-top: 55px;
-	padding-left: 75px;
+	padding-left: 125px;
 }
 
 .page-main .RT-section .quotes-title p {
 	font-family: "Russo One", "Courier New", Courier, monospace;
 	font-weight: 700;
 	font-size: 25px;
-	letter-spacing: 15px;
+	letter-spacing: 10px;
+}
+
+.page-main .RT-section .quotes-title p span {
+	letter-spacing: 10px;
+	text-decoration: underline;
+	text-decoration-color: #ff0000;
 }
 
 #iss-map {
