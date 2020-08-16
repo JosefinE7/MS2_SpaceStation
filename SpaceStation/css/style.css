@@ -52,6 +52,11 @@
 
 /* start page top area */
 
+.page-main {
+	background: url(SpaceStation/img/background.png);
+	background-position: 0% 50%;
+}
+
 .page-main .page-top {
 	background: url(/SpaceStation/img/background.png);
 	background-position: 0% 50%;
