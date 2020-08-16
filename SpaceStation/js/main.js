@@ -39,9 +39,9 @@ $(document).ready(function () {
 		document.getElementById("vel").textContent = velocity.toFixed(3);
 	}
 
-	getISS();
+	//getISS(); <-- important
 
-	setInterval(getISS, 1000);
+	//setInterval(getISS, 1000);  <---important
 
 	// End Location R-T section
 
