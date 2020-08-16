@@ -53,12 +53,12 @@
 /* start page top area */
 
 main.page-main {
-	background: url("SpaceStation/img/background.png");
+	background: url("/SpaceStation/img/background2.jpg");
 	background-position: 0% 50%;
 }
 
 .page-main .page-top {
-	background: url("/SpaceStation/img/background.png");
+	background: url("/SpaceStation/img/background2.jpg");
 	background-position: 0% 50%;
 	padding: 75px 320px 85px 320px;
 }
@@ -111,7 +111,7 @@ main.page-main {
 /* Start About section*/
 
 .page-main .about-section {
-	background: url("/SpaceStation/img/background.png");
+	background: url("SpaceStation/img/background2.jpg");
 	padding: 100px 75px;
 }
 
@@ -134,7 +134,7 @@ main.page-main {
 /* Start ISS-Map section*/
 
 .page-main .RT-section {
-	background: url("/SpaceStation/img/background.png");
+	background: url("SpaceStation/img/background.png");
 	padding: 125px 0;
 }
 
@@ -177,7 +177,7 @@ main.page-main {
 /* Start Gallery section*/
 
 .page-main .gallery-section {
-	background: url("/SpaceStation/img/background.png");
+	background: url("SpaceStation/img/background.png");
 	padding: 125px 0;
 }
 
@@ -215,7 +215,7 @@ main.page-main {
 /* Start Quotes section*/
 
 .page-main .quotes-section {
-	background: url("/SpaceStation/img/background.png");
+	background: url("SpaceStation/img/background.png");
 }
 
 .page-main .quotes-section .quote-header {
@@ -274,7 +274,7 @@ main.page-main {
 footer.footer-section {
 	padding: 75px 0;
 	font-family: "Russo One", "Courier New", Courier, monospace;
-	background: url("/SpaceStation/img/background.png");
+	background: url("SpaceStation/img/background.png");
 }
 
 footer.footer-section .iss-logo {
