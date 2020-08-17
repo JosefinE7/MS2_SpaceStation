@@ -1,40 +1,59 @@
 /**
  * Code below is copied from
  * https://wheretheiss.at/
- * in conjunction with a video from the
- * channel The Coding Train
+ * in conjunction with Leaflet Library
+ * https://leafletjs.com/examples/quick-start/
+ * with additional assistance from the video
  * https://www.youtube.com/watch?v=nZaZ2dB6pow&t=10s
- * to provide a map and live updates provided by
- * the iss api to the RT-section of page.
+ * to provide a map and live updates
+ * to the RT-section of page.
  *
  */
+var initialZoomLatitude = 0;
+var initialZoomLongitude = 0;
+var mapZoomLevel = 2;
 
-const MY_MAP = L.map("iss-map").setView([0, 0], 1); // When calling functions in Leaflet library you use L.
+const MY_MAP = L.map("iss-map").setView(
+	[initialZoomLatitude, initialZoomLongitude],
+	mapZoomLevel
+);
 
 /**  Whenever using anything based on OpenStreetMap, 
-an attribution is obligatory as per the copyright notice. */
+an attribution is obligatory as per the copyright notice. 
+*/
 const ATTRIBUTION =
 	'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 
-const TILE_URL = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+/** Url below is format of a url for any given tile
+ * from Open Street map
+ */
+const TILE_URL = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"; // this url is a convention from Leaflet for loading all tiles in map from Open Street map
 const TILES = L.tileLayer(TILE_URL, { ATTRIBUTION });
 TILES.addTo(MY_MAP);
 
 /* Code below creates a marker with custom icon*/
+var iconHeight = 50;
+var iconWidth = 32;
+var anchorHeight = 25;
+var anchorWidth = 16;
+
 var issIcon = L.icon({
 	iconUrl: "SpaceStation/img/iss-map-icon.png",
-	iconSize: [50, 32],
-	iconAnchor: [25, 16],
+	iconSize: [iconHeight, iconWidth],
+	iconAnchor: [anchorHeight, anchorWidth],
 });
 
-const MARKER = L.marker([0, 0], { icon: issIcon }).addTo(MY_MAP);
-
-const ISS_URL = "https://api.wheretheiss.at/v1/satellites/25544";
+const MARKER = L.marker([initialZoomLatitude, initialZoomLongitude], {
+	icon: issIcon,
+}).addTo(MY_MAP);
 
 /** Code below fetches the information
  * from the iss api and displays it
- * on the page
+ * on the page through Leaflet map and
+ * live coordinates
  */
+
+const ISS_URL = "https://api.wheretheiss.at/v1/satellites/25544";
 
 let firstTime = true;
 async function getISS() {
@@ -42,11 +61,10 @@ async function getISS() {
 	const DATA = await RESPONSE.json();
 	const { latitude, longitude, altitude, velocity } = DATA;
 	const DECIMAL_AMOUNT = 3;
-	const MAP_ZOOM = 2;
 
 	MARKER.setLatLng([latitude, longitude]);
 	if (firstTime) {
-		MY_MAP.setView([latitude, longitude], MAP_ZOOM);
+		MY_MAP.setView([latitude, longitude], mapZoomLevel);
 		firstTime = false;
 	}
 
@@ -93,5 +111,5 @@ $(".page-main .quotes-section .owl-carousel").owlCarousel({
 });
 
 $(document).ready(function () {});
-//getISS();
-//setInterval(getISS, 1000);
+getISS();
+setInterval(getISS, 1000);
