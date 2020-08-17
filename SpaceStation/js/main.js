@@ -45,14 +45,26 @@ $(document).ready(function () {
 
 	// End Location R-T section
 
-	//code below from Magnific Popup (https://dimsemenov.com/plugins/magnific-popup/) to provide a "Lightbox Gallery" effect to my gallery-section
+	/**
+	 * Code below is copied from Magnific Popup
+	 * https://dimsemenov.com/plugins/magnific-popup/
+	 * and it provides a "Lightbox Gallery" effect
+	 * to gallery-section
+	 *
+	 */
 
 	$(".gallery-section .grid .test-popup-link").magnificPopup({
 		type: "image",
 		gallery: { enabled: true },
 	});
 
-	//code below from Owl Carousel (https://owlcarousel2.github.io/OwlCarousel2/demos/basic.html) to provide a carousel effect to my quotes-section
+	/**
+	 * Code below is copied from Owl Carousel
+	 * https://owlcarousel2.github.io/OwlCarousel2/demos/basic.html
+	 * and it provides a carousel effect to
+	 * quotes-section
+	 *
+	 */
 	$(".page-main .quotes-section .owl-carousel").owlCarousel({
 		loop: true,
 		autoplay: true,
