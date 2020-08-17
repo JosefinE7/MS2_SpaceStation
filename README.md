@@ -10,6 +10,7 @@ When making this website, considering time and skill constraints I wanted to mak
 The website is intended for a user who has little to no knowledge about the ISS and is looking for an introduction to the subject, the page aims to provide the user with an basic understanding of a couple different aspects of the ISS: basic information, pictures, real time location and thoughts from some astronauts who have visited the ISS. There is only one big chunk of text and that is in the “About section”, which gives a brief explanation of what the ISS is and what the goal of the projects is. This text is written in plain english to make it understandable for a large audience.
 
 **User Stories**
+TODO:
 
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
@@ -51,6 +52,31 @@ In the beginning of the project I had a pretty clear idea of the structure of th
 
 - Smaller functions in js file
   - On the advice of my mentor on this project: I aim to create a larger number of smaller functions, instead of my now smaller number large functions, to execute the retrieving and displaying of the information from the ISS API. This to make it easier for any future developer looking to understand and use the code.
+
+## Technologies Used
+
+- [jQuery](https://jquery.com/)
+
+  - The project uses JQuery to simplify DOM manipulation.
+
+- [Bootstrap](https://getbootstrap.com/)
+
+  - The project uses Bootstrap to provide a grid system, as well as basic layout and styling.
+
+- [Font Awesome](https://fontawesome.com/)
+
+  - The project uses Font Awesome to add icons.
+
+- [Magnific Popup](https://dimsemenov.com/plugins/magnific-popup/)
+
+  - The project uses Magnific Popup to provide "Lightbox gallery".
+
+- [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/)
+
+  - The project uses Owl Carousel to create a rotating carousel element.
+
+- [Leaflet](https://leafletjs.com/)
+  - The project uses the Leaflet Javascript library to display map with real time ISS icon.
 
 background img link https://www.needpix.com/photo/1552630/lilac-background-web-website-webpage-page-pages-design-designs
 
