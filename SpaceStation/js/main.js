@@ -35,16 +35,18 @@ const ISS_URL = "https://api.wheretheiss.at/v1/satellites/25544";
  * from the iss api and displays it
  * on the page
  */
+
 let firstTime = true;
 async function getISS() {
 	const RESPONSE = await fetch(ISS_URL);
 	const DATA = await RESPONSE.json();
 	const { latitude, longitude, altitude, velocity } = DATA;
 	const DECIMAL_AMOUNT = 3;
+	const MAP_ZOOM = 2;
 
 	MARKER.setLatLng([latitude, longitude]);
 	if (firstTime) {
-		MY_MAP.setView([latitude, longitude], 2);
+		MY_MAP.setView([latitude, longitude], MAP_ZOOM);
 		firstTime = false;
 	}
 
