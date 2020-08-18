@@ -1,6 +1,6 @@
 # The ISS in Real Time
 
-For my second project I decided to make a website based around the International Space Station or ISS for short. While we are stepping into a new age in space exploration through companies like SpaceX and Virgin Galactic; the ISS has made it possible for people to have an ongoing presence in space. The ISS has been, and continues to be a driving force in all kinds of scientific research as well as international collaboration.
+For my second project I decided to make a website based around the International Space Station or ISS for short. While we are stepping into a new age in space exploration through companies like SpaceX and Virgin Galactic, the ISS has made it possible for people to have an ongoing presence in space. The ISS has been, and continues to be, a driving force in all kinds of scientific research- as well as international collaboration.
 
 NASA currently is working on a plan to explore other worlds. The space station is one of the first steps. NASA will use lessons learned on the space station to prepare for human missions that reach farther into space than ever before. This is all to say that the ISS time is not over, quite on the contrary: it has just begun. With this in mind, let’s explore what the ISS is all about.
 
@@ -26,7 +26,7 @@ In the beginning of the project I had a pretty clear idea of the structure of th
 ## Features
 
 - Navigation bar
-  - At the very top of the page is a navigation bar that allows you to manoeuvre around the page in between the Home, About, Location R-T, Gallery and Astronaut page section. The navigation bar is fixed to the top of the page.
+  - At the very top of the page is a navigation bar that allows you to maneuver around the page in between the Home, About, Location R-T, Gallery and Astronaut page section. The navigation bar is fixed to the top of the page.
 
 * Top section/Home
   - At the top of the page there is a header element and an image of one of the ISS logos.
