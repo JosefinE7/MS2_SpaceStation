@@ -7,8 +7,9 @@
  * https://www.youtube.com/watch?v=nZaZ2dB6pow&t=10s
  * to provide a map and live updates
  * to the RT-section of page.
- *
  */
+
+/* Code below creates a Leaflet map*/
 var initialZoomLatitude = 0;
 var initialZoomLongitude = 0;
 var mapZoomLevel = 2;
@@ -18,16 +19,10 @@ const MY_MAP = L.map("iss-map").setView(
 	mapZoomLevel
 );
 
-/**  Whenever using anything based on OpenStreetMap, 
-an attribution is obligatory as per the copyright notice. 
-*/
 const ATTRIBUTION =
-	'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+	'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'; // obligatory as per the copyright notice
 
-/** Url below is format of a url for any given tile
- * from Open Street map
- */
-const TILE_URL = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"; // this url is a convention from Leaflet for loading all tiles in map from Open Street map
+const TILE_URL = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"; // url is a format of a url for any given map tile from Open Street map
 const TILES = L.tileLayer(TILE_URL, { ATTRIBUTION });
 TILES.addTo(MY_MAP);
 
@@ -60,7 +55,7 @@ async function getISS() {
 	const RESPONSE = await fetch(ISS_URL);
 	const DATA = await RESPONSE.json();
 	const { latitude, longitude, altitude, velocity } = DATA;
-	const DECIMAL_AMOUNT = 3;
+	var decimalAmount = 3;
 
 	MARKER.setLatLng([latitude, longitude]);
 	if (firstTime) {
@@ -68,12 +63,12 @@ async function getISS() {
 		firstTime = false;
 	}
 
-	document.getElementById("lat").textContent = latitude.toFixed(DECIMAL_AMOUNT);
+	document.getElementById("lat").textContent = latitude.toFixed(decimalAmount);
 	document.getElementById("long").textContent = longitude.toFixed(
-		DECIMAL_AMOUNT
+		decimalAmount
 	);
-	document.getElementById("alt").textContent = altitude.toFixed(DECIMAL_AMOUNT);
-	document.getElementById("vel").textContent = velocity.toFixed(DECIMAL_AMOUNT);
+	document.getElementById("alt").textContent = altitude.toFixed(decimalAmount);
+	document.getElementById("vel").textContent = velocity.toFixed(decimalAmount);
 }
 
 /**
@@ -81,7 +76,6 @@ async function getISS() {
  * https://dimsemenov.com/plugins/magnific-popup/
  * and it provides a "Lightbox Gallery" effect
  * to gallery-section
- *
  */
 
 $(".gallery-section .grid .test-popup-link").magnificPopup({
@@ -94,7 +88,6 @@ $(".gallery-section .grid .test-popup-link").magnificPopup({
  * https://owlcarousel2.github.io/OwlCarousel2/demos/basic.html
  * and it provides a carousel effect to
  * quotes-section
- *
  */
 $(".page-main .quotes-section .owl-carousel").owlCarousel({
 	loop: true,
