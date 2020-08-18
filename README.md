@@ -103,13 +103,23 @@ If you would like to download and work on this project separately, make sure to:
 1. Write a git add command: git add . in terminal
 1. Write a commit message: git commit -m “My commit message”
 1. Write git push
-1. Start working on your own version of the ISS Real Time website, add and commit as you go along
+1. Start working on your own version of the ISS Real Time website; add and commit as you go along
 
 ## Credits
 
 ### Content
 
+- Navbar in copied from [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/), the copied code is clearly marked with comments at top and bottom.
+
+* The entire text about the ISS in the About section of the page is copied from [NASA's](https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-the-iss-58.html) the copied text is clearly marked with comments at top and bottom.
+
 ### Media
+
+- A video from the channel Daily Tution played a significant role in creating the basic structure for my page: [Daily Tution](https://www.youtube.com/watch?v=dgKSqz3it50&list=PLyJ4G7XKUDcezDx0kgfAfp4ZC3kyMVRgd&index=6&t=2702s), with this [Github source file](https://github.com/akashyap2013/PortFolio_Website). In this video a complete portfolio website is built using bootstrap, HTML and CSS. I watched/followed the video for inspiration on the basic structure and layout of my page.
+
+- Another video that helped me in my project is a video from the channel [The Coding Train](https://www.youtube.com/watch?v=nZaZ2dB6pow&list=PLyJ4G7XKUDcezDx0kgfAfp4ZC3kyMVRgd&index=10&t=716s), when I got stuck trying to figure out the ISS API, this video helped me in writing my JavaScript code.
+
+#### Images included in project
 
 Images featured in top-section:
 
