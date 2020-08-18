@@ -162,3 +162,7 @@ Images featured in Quotes section:
 - [scott.jpg](https://commons.wikimedia.org/wiki/File:Scott_J._Kelly.jpg)
 
 ## Acknowledgements
+
+- Copyright:
+  - This is a school project intended to show my teachers my ability to code. When talking to Student care from Code institute about copyright, I was told that as long as a I state the fact that this is a school project intended for no other use that it would be ok to use some copyrighted material.  
+    All images included in the project were found using Google Advanced Image search, with the “usage rights:” set to “free to use or share, even commercially”. The copied NASA text in About section may be subject to copyright.
