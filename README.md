@@ -51,9 +51,6 @@ In the beginning of the project I had a pretty clear idea of the structure of th
 
   - Responsive web design is so incredibly crucial when creating a website today since most people browsing the internet use their phones or tablets. This website is not responsive, the reason being a lack of time. My first order of business in future work on this website is to implement a responsive web design.
 
-- Smaller functions in js file
-  - On the advice of my mentor on this project: I aim to create a larger number of smaller functions, instead of my now smaller number large functions, to execute the retrieving and displaying of the information from the ISS API. This to make it easier for any future developer looking to understand and use the code.
-
 ## Technologies Used
 
 - [jQuery](https://jquery.com/)
