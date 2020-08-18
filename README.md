@@ -83,6 +83,8 @@ In the beginning of the project I had a pretty clear idea of the structure of th
 
 ### Screen sizes
 
+The ISS Real Time website works on Google Chrome on screen sizes considered “Extra large” or screens above 1200px in width.
+
 ### Bugs
 
 ## Deployment
@@ -103,7 +105,7 @@ Image featured in ISS Real Time section:
 
 - [iss-map-icon](https://commons.wikimedia.org/wiki/File:International_Space_Station.svg)
 
-Photos featured in Gallery section:
+Images featured in Gallery section:
 
 - [ms2-gallery1](https://www.flickr.com/photos/nasaearthobservatory/6792427300)
 
