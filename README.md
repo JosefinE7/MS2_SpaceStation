@@ -1,4 +1,4 @@
-# The ISS in real time
+# The ISS in Real Time
 
 For my second project I decided to make a website based around the International Space Station or ISS for short. While we are stepping into a new age in space exploration through companies like SpaceX and Virgin Galactic; the ISS has made it possible for people to have an ongoing presence in space. The ISS has been, and continues to be a driving force in all kinds of scientific research as well as international collaboration.
 
@@ -78,11 +78,25 @@ In the beginning of the project I had a pretty clear idea of the structure of th
 - [Leaflet](https://leafletjs.com/)
   - The project uses the Leaflet Javascript library to display map with real time ISS icon.
 
-background img link https://www.needpix.com/photo/1552630/lilac-background-web-website-webpage-page-pages-design-designs
+## Testing
 
-iss logo 2 https://en.wikipedia.org/wiki/File:ISS_insignia.svg
+### Screen sizes
 
-space-station-drawing https://freesvg.org/international-space-station-vector-drawing
+### Bugs
+
+## Deployment
+
+## Credits
+
+### Content
+
+### Media
+
+![ISS Logo](SpaceStation/img/iss-logo2.png)
+[ISS Logo](https://en.wikipedia.org/wiki/File:ISS_insignia.svg)
+
+![space-station-drawing](SpaceStation/img/space-station-drawing.png)
+[space-station-drawing](https://freesvg.org/international-space-station-vector-drawing)
 
 space-station-rl https://www.flickr.com/photos/samchurchill/4343762727
 
@@ -111,3 +125,5 @@ ms2-gallery8 https://www.uihere.com/free-photos/astronaut-spacewalk-iss-tools-51
 ms2-gallery9 https://www.pikist.com/free-photo-xvdjw
 
 ms2-gallery10 https://www.pikist.com/free-photo-xaarm
+
+## Acknowledgements
