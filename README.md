@@ -19,8 +19,9 @@ The website is intended for a user who has little to no knowledge about the ISS 
 
 In the beginning of the project I had a pretty clear idea of the structure of the page, as well as what elements I thought would look good and convey what I wanted to convey. I ended up following my original plan pretty closely with a couple of exceptions mainly regarding placement but also deciding on a astronaut quote carousel instead of an embedded Youtube video.
 
-[Mockup layout](SpaceStation/img/README/Milestone2.1.jpg)
-[Mockup idea](SpaceStation/img/README/Milestone2.2.jpg)
+![Mockup layout](SpaceStation/img/README/Milestone2.1.jpg)
+
+![Mockup idea](SpaceStation/img/README/Milestone2.2.jpg)
 
 ## Features
 
@@ -86,6 +87,8 @@ In the beginning of the project I had a pretty clear idea of the structure of th
 The ISS Real Time website works on Google Chrome on screen sizes considered “Extra large” or screens above 1200px in width.
 
 ### Bugs
+
+As of the date of handing in this project I have not noticed any major bugs.
 
 <!--Deployment section below is copied from my first milestone project "basic-economics-TS" with some slight changes added to it-->
 
