@@ -7,6 +7,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Coda&display=swap");
 
 /* start navigation */
+
+html {
+	scroll-behavior: smooth;
+}
+
 .page-header .menu .navbar {
 	border-bottom: 1px #778899;
 	box-shadow: 2px 5px 18px #888888;
