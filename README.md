@@ -71,14 +71,14 @@ In the beginning of the project I had a pretty clear idea of the structure of th
 
 - [Magnific Popup](https://dimsemenov.com/plugins/magnific-popup/)
 
-  - The project uses Magnific Popup to provide "Lightbox gallery".
+  - The project uses Magnific Popup to provide "Lightbox gallery" to Gallery section of page.
 
 - [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/)
 
-  - The project uses Owl Carousel to create a rotating carousel element.
+  - The project uses Owl Carousel to create a rotating carousel element to Quotes section of page.
 
 - [Leaflet](https://leafletjs.com/)
-  - The project uses the Leaflet Javascript library to display map with real time ISS icon.
+  - The project uses the Leaflet Javascript library to display map with real time ISS icon to ISS Real Time section of page.
 
 ## Testing
 
