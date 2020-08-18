@@ -93,42 +93,44 @@ In the beginning of the project I had a pretty clear idea of the structure of th
 
 ### Media
 
-![ISS Logo](SpaceStation/img/iss-logo2.png)
-[ISS Logo](https://en.wikipedia.org/wiki/File:ISS_insignia.svg)
+Images featured in top-section:
 
-![space-station-drawing](SpaceStation/img/space-station-drawing.png)
-[space-station-drawing](https://freesvg.org/international-space-station-vector-drawing)
+- [ISS Logo](https://en.wikipedia.org/wiki/File:ISS_insignia.svg)
 
-![iss-map-icon](SpaceStation/img/iss-map-icon.png)
-[iss-map-icon](https://commons.wikimedia.org/wiki/File:International_Space_Station.svg)
+- [space-station-drawing](https://freesvg.org/international-space-station-vector-drawing)
 
-GALLERY IMG:
+Image featured in ISS Real Time section:
 
-![ms2-gallery1](SpaceStation/img/gallery-big/ms2-gallery1-big.jpg)
-[ms2-gallery1](https://www.flickr.com/photos/nasaearthobservatory/6792427300)
+- [iss-map-icon](https://commons.wikimedia.org/wiki/File:International_Space_Station.svg)
 
-![ms2-gallery2](SpaceStation/img/gallery-big/ms2-gallery2-big.jpg)
-[ms2-gallery2](https://pixabay.com/photos/cosmonaut-spacewalk-iss-tools-suit-582544/)
+Photos featured in Gallery section:
 
-![ms2-gallery3](SpaceStation/img/gallery-big/ms2-gallery3-big.jpg)
-[ms2-gallery3](https://pxhere.com/sv/photo/1066080)
+- [ms2-gallery1](https://www.flickr.com/photos/nasaearthobservatory/6792427300)
 
-![ms2-gallery4](SpaceStation/img/gallery-big/ms2-gallery4-big.jpg)
-[ms2-gallery4](https://www.needpix.com/photo/495775/satellite-iss-northern-lights-aurora-borealis-international-space-station-space-spaceship-station-science)
+- [ms2-gallery2.jpg](https://pixabay.com/photos/cosmonaut-spacewalk-iss-tools-suit-582544/)
 
-![ms2-gallery5](SpaceStation/img/gallery-big/ms2-gallery5-big.jpg)
-[ms2-gallery5](https://www.flickr.com/photos/nasacommons/36510207981)
+- [ms2-gallery3.jpg](https://pxhere.com/sv/photo/1066080)
 
-![ms2-gallery6](SpaceStation/img/gallery-big/ms2-gallery6-big.jpg)
-[ms2-gallery6](<https://commons.wikimedia.org/wiki/File:ISS-56_International_Space_Station_fly-around_(05).jpg>)
+- [ms2-gallery4.jpg](https://www.needpix.com/photo/495775/satellite-iss-northern-lights-aurora-borealis-international-space-station-space-spaceship-station-science)
 
-![ms2-gallery8](SpaceStation/img/gallery-big/ms2-gallery8-big.jpg)
-[ms2-gallery8](https://www.uihere.com/free-photos/astronaut-spacewalk-iss-tools-516634)
+- [ms2-gallery5.jpg](https://www.flickr.com/photos/nasacommons/36510207981)
 
-![ms2-gallery9](SpaceStation/img/gallery-big/ms2-gallery9-big.jpg)
-[ms2-gallery9](https://www.pikist.com/free-photo-xvdjw)
+- [ms2-gallery6.jpg](<https://commons.wikimedia.org/wiki/File:ISS-56_International_Space_Station_fly-around_(05).jpg>)
 
-![ms2-gallery10](SpaceStation/img/gallery-big/ms2-gallery10-big.jpg)
-[ms2-gallery10](https://www.pikist.com/free-photo-xaarm)
+- [ms2-gallery8.jpg](https://www.uihere.com/free-photos/astronaut-spacewalk-iss-tools-516634)
+
+- [ms2-gallery9.jpg](https://www.pikist.com/free-photo-xvdjw)
+
+- [ms2-gallery10.jpg](https://www.pikist.com/free-photo-xaarm)
+
+Images featured in Quotes section:
+
+- [peggy.jpg](https://sv.m.wikipedia.org/wiki/Fil:Peggy_Whitson.jpg)
+
+- [chris.jpg](https://picryl.com/media/jsc2012e238482-a623ba)
+
+- [ellen.jpg](https://www.flickr.com/photos/nasacommons/29320023973)
+
+- [scott.jpg](https://commons.wikimedia.org/wiki/File:Scott_J._Kelly.jpg)
 
 ## Acknowledgements
