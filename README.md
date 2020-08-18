@@ -82,6 +82,55 @@ In the beginning of the project I had a pretty clear idea of the structure of th
 
 ## Testing
 
+**Testing Navbar smooth scroll:**
+
+1. Go to Home page
+1. Hover mouse over all navbar anchor links
+1. Home, About, ISS Real Time, Gallery and Quotes section all light up red when hovered over
+1. Click Home, About, ISS Real Time, Gallery and Quotes section
+1. All navbar links takes me to intended place on page, while smooth scrolling
+1. Test successful
+
+**Testing ISS Real Time Map:**
+
+1. Go to ISS Real Time section of page
+1. Hover mouse over Leaflet map
+1. Mouse transitions into cursor when hovering over map
+1. Use zoom-in function in left corner of map
+1. Use zoom-out function in left corner of map
+1. Zoom-in and zoom-out successful
+1. Use touchpad on computer to zoom-in
+1. Use touchpad on computer to zoom-out
+1. Zoom-in and zoom-out successful
+1. Use touchpad to move around map
+1. Maneuvering map successful
+1. Test successful
+
+**Testing Gallery section:**
+
+1. Go to Gallery section on page
+1. Hover over all 9 pictures
+1. All pictures react to mouse hovering over image by lighting up image with slight shadow behind image
+1. Click picture number one
+1. Image number one is displayed in full form across majority of screen
+1. Clicks back- and forward arrow on each of the side of image to maneuver through all images
+1. All images are clicked through backward and forward
+1. Clicks right corner closing button
+1. The gallery closes down properly
+1. Test successful
+
+**Test footer links:**
+
+1. Go to footer section
+1. Hover mouse over Facebook, Instagram, Youtube and Twitter icon
+1. Icons reacts to mouse by lighting up with respective color
+1. Clicks each icon
+1. Facebook icon takes me to separate ISS Facebook page
+1. Instagram icon takes me to separate ISS Instagram page
+1. Youtube icon takes me to separate ISS Youtube page
+1. Twitter icon takes me to separate ISS Twitter page
+1. Test successful
+
 ### Screen sizes
 
 The ISS Real Time website works on Google Chrome on screen sizes considered “Extra large” or screens above 1200px in width.
