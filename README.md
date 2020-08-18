@@ -10,14 +10,17 @@ When making this website, considering time and skill constraints I wanted to mak
 The website is intended for a user who has little to no knowledge about the ISS and is looking for an introduction to the subject, the page aims to provide the user with an basic understanding of a couple different aspects of the ISS: basic information, pictures, real time location and thoughts from some astronauts who have visited the ISS. There is only one big chunk of text and that is in the “About section”, which gives a brief explanation of what the ISS is and what the goal of the projects is. This text is written in plain english to make it understandable for a large audience.
 
 **User Stories**
-TODO:
 
-- As a user type, I want to perform an action, so that I can achieve a goal.
+- As an elementary school teacher, I want to give my students a basic understanding of what the ISS is, what I need is a website with some basic information but mostly engaging content that keeps my students interested.
+
+- As a person who has never really been interested in space, who now wants to be up to speed now that space exploration is on the tip of everyone's tongue. People keep bringing up the ISS but I don’t know anything about it. The ISS section on NASA's official website is too cluttered, I need something simple and easy to understand.
+
+- As as amature astronomer who likes to aim my telescope towards the night sky, I like observing the ISS and would like to know when it crosses over my general area so I can observe it through my telescope while it passes by.
 
 In the beginning of the project I had a pretty clear idea of the structure of the page, as well as what elements I thought would look good and convey what I wanted to convey. I ended up following my original plan pretty closely with a couple of exceptions mainly regarding placement but also deciding on a astronaut quote carousel instead of an embedded Youtube video.
 
-![Mockup layout](SpaceStation/img/README/Milestone2.1.jpg)
-![Mockup idea](SpaceStation/img/README/Milestone2.2.jpg)
+[Mockup layout](SpaceStation/img/README/Milestone2.1.jpg)
+[Mockup idea](SpaceStation/img/README/Milestone2.2.jpg)
 
 ## Features
 
