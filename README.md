@@ -130,16 +130,4 @@ GALLERY IMG:
 ![ms2-gallery10](SpaceStation/img/gallery-big/ms2-gallery10-big.jpg)
 [ms2-gallery10](https://www.pikist.com/free-photo-xaarm)
 
-ms2-gallery5 https://www.flickr.com/photos/nasacommons/36510207981
-
-ms2-gallery6 https://commons.wikimedia.org/wiki/File:ISS-56_International_Space_Station_fly-around_(05).jpg
-
-ms2-gallery7 https://en.wikipedia.org/wiki/File:Endeavour_docked_to_ISS.jpg
-
-ms2-gallery8 https://www.uihere.com/free-photos/astronaut-spacewalk-iss-tools-516634
-
-ms2-gallery9 https://www.pikist.com/free-photo-xvdjw
-
-ms2-gallery10 https://www.pikist.com/free-photo-xaarm
-
 ## Acknowledgements
