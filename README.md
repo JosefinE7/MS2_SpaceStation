@@ -15,6 +15,7 @@ TODO:
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
 In the beginning of the project I had a pretty clear idea of the structure of the page, as well as what elements I thought would look good and convey what I wanted to convey. I ended up following my original plan pretty closely with a couple of exceptions mainly regarding placement but also deciding on a astronaut quote carousel instead of an embedded Youtube video.
+
 ![Mockup layout](SpaceStation/img/README/Milestone2.1.jpg)
 ![Mockup idea](SpaceStation/img/README/Milestone2.2.jpg)
 
