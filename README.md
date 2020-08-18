@@ -87,7 +87,23 @@ The ISS Real Time website works on Google Chrome on screen sizes considered “E
 
 ### Bugs
 
+<!--Deployment section below is copied from my first milestone project "basic-economics-TS" with some slight changes added to it-->
+
 ## Deployment
+
+The project is hosted on GitHub pages, published by a master branch. I used GitPod workspaces to be able to work on my project, which I accessed through GitHub, I follow the official instructions from Code Institute in terms of download and launch. One of the things provided by the Code Institute is “gitpod-full-template” which provided me with useful extensions, shortcuts and other useful things.
+
+If you would like to download and work on this project separately, make sure to:
+
+1. GitPod is installed on your local system
+1. Go into JosefinE7 repositories
+1. Click onto the: MS2_SpaceStation repository
+1. Click git clone or download
+1. Open the project up in your own workspace
+1. Write a git add command: git add . in terminal
+1. Write a commit message: git commit -m “My commit message”
+1. Write git push
+1. Start working on your own version of the ISS Real Time website, add and commit as you go along
 
 ## Credits
 
