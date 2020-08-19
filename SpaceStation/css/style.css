@@ -176,12 +176,12 @@ html {
 
 /* start Gallery section*/
 
-.page-main .gallery-section {
+.gallery-section {
 	background: url("https://JosefinE7.github.io/MS2_SpaceStation/SpaceStation/img/background.png");
 	padding: 125px 0;
 }
 
-.page-main .gallery-section .gallery-title {
+.gallery-title {
 	font-family: "Russo One", "Courier New", Courier, monospace;
 	line-height: 15px;
 	font-weight: 800;
@@ -189,16 +189,16 @@ html {
 	letter-spacing: 15px;
 }
 
-.page-main .gallery-section .gallery-item {
+.gallery-item {
 	padding: 10px 0 45px 0;
 }
 
-.page-main .gallery-section .gallery-item .gallery-item-3 {
+.gallery-item .gallery-item-3 {
 	padding-left: 10;
 	margin-left: 0;
 }
 
-.page-main .gallery-section .gallery-item .pictures {
+.gallery-item .pictures {
 	padding: 10px 10px 55px 10px;
 	border: 1px solid #bfbfbf;
 	background-color: #f8f8ff;
@@ -206,7 +206,7 @@ html {
 	margin: 15px 15px;
 }
 
-.page-main .gallery-section .grid .pictures a:hover img {
+.grid .pictures a:hover img {
 	filter: brightness(1.2) drop-shadow(1px 8px 30px #778899);
 }
 
@@ -214,12 +214,12 @@ html {
 
 /* start Quotes section*/
 
-.page-main .quotes-section {
+.quotes-section {
 	background: url("https://JosefinE7.github.io/MS2_SpaceStation/SpaceStation/img/background.png");
 }
 
 .page-main .quotes-section .quote-header {
-	padding: 150px 75px 25px 50px;
+	padding: 100px 75px 25px 50px;
 }
 
 .page-main .quotes-section .quotes-title h1 {
@@ -240,18 +240,12 @@ html {
 	font-family: "Mulish", "Courier New", Courier, monospace;
 }
 
-.page-main .quotes-section .astronaut {
+.astronaut {
 	border: 1px solid #bfbfbf;
 	background-color: #f8f8ff;
 	box-shadow: 5px 5px 2.5px #aaaaaa;
 	margin: 45px 0;
 }
-
-/*
-.page-main .quotes-section .astronaut div:hover{
-    filter: brightness(1.1)drop-shadow(1px 8px 30px #778899);
-}
-*/
 
 .page-main .quotes-section .astronaut .astronaut-img {
 	padding: 30px;
@@ -271,31 +265,31 @@ html {
 
 /* start Footer section */
 
-footer.footer-section {
+.footer-section {
 	padding: 75px 0;
 	font-family: "Russo One", "Courier New", Courier, monospace;
 	background: url("https://JosefinE7.github.io/MS2_SpaceStation/SpaceStation/img/background.png");
 }
 
-footer.footer-section .iss-logo {
+.footer-section .iss-logo {
 	padding: 40px 0;
 }
 
-footer.footer-section .social-media a > i {
+.footer-section .social-media a > i {
 	font-size: 25px;
 	padding: 30px;
 	color: #696969;
 }
 
-footer.footer-section .social-media .facebook:hover > i {
+.social-media .facebook:hover > i {
 	color: #0000ff;
 }
 
-footer.footer-section .social-media .instagram:hover > i {
+.social-media .instagram:hover > i {
 	color: #ff69b4;
 }
 
-footer.footer-section .social-media .youtube:hover > i {
+.social-media .youtube:hover > i {
 	color: #ff0000;
 }
 
