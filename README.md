@@ -26,7 +26,7 @@ In the beginning of the project I had a pretty clear idea of the structure of th
 ## Features
 
 - Navigation bar
-  - At the very top of the page is a navigation bar that allows you to maneuver around the page in between the Home, About, Location R-T, Gallery and Astronaut page section. The navigation bar is fixed to the top of the page.
+  - At the very top of the page is a navigation bar that allows you to maneuver around the page in between the Home, About, ISS Real Time, Gallery and Astronaut page section. The navigation bar is fixed to the top of the page.
 
 * Top section/Home
   - At the top of the page there is a header element and an image of one of the ISS logos.
@@ -40,7 +40,7 @@ In the beginning of the project I had a pretty clear idea of the structure of th
 
 * Gallery section
 
-  - This section has a photo gallery containing 9 pictures taken of/on/around the ISS. The gallery uses the jQuery plugin Magnific Popup to make the image light up when the mouse hovers over the image. All the images grow into full size when clicked and can be rotated through.
+  - This section has a photo gallery containing 9 pictures taken of/on/around the ISS. The gallery uses the jQuery plugin Magnific Popup to make the image light up when the mouse hovers over the image. All the images grow into full size which covers most of the screen when clicked, the gallery can be rotated through.
 
 * Quotes/Astronaut section
 
@@ -163,13 +163,13 @@ If you would like to download and work on this project separately, make sure to:
 
 - Navbar in copied from [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/), the copied code is clearly marked with comments at top and bottom.
 
-* The entire text about the ISS in the About section of the page is copied from [NASA's](https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-the-iss-58.html) the copied text is clearly marked with comments at top and bottom.
+* The entire text about the ISS in the About section of the page is copied from [NASA's website](https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-the-iss-58.html), the copied text is clearly marked with comments at top and bottom.
 
 * The API for the ISS Real Time map is from [WhereTheIss.at](https://wheretheiss.at/w/developer)
 
 ### Media
 
-- A video from the channel Daily Tution played a significant role in creating the basic structure for my page: [Daily Tution](https://www.youtube.com/watch?v=dgKSqz3it50&list=PLyJ4G7XKUDcezDx0kgfAfp4ZC3kyMVRgd&index=6&t=2702s), with this [Github source file](https://github.com/akashyap2013/PortFolio_Website). In this video a complete portfolio website is built using bootstrap, HTML and CSS. I watched/followed the video for inspiration on the basic structure and layout of my page.
+- A video from the channel Daily Tution played a significant role in creating the basic structure for my page: [Daily Tution video](https://www.youtube.com/watch?v=dgKSqz3it50&list=PLyJ4G7XKUDcezDx0kgfAfp4ZC3kyMVRgd&index=6&t=2702s), with this [Github source file](https://github.com/akashyap2013/PortFolio_Website). In this video a complete portfolio website is built using Bootstrap, HTML and CSS. I watched/followed the video for inspiration on the basic structure and layout of my page.
 
 - Another video that helped me in my project is a video from the channel [The Coding Train](https://www.youtube.com/watch?v=nZaZ2dB6pow&list=PLyJ4G7XKUDcezDx0kgfAfp4ZC3kyMVRgd&index=10&t=716s), when I got stuck trying to figure out the ISS API, this video helped me in writing my JavaScript code.
 
