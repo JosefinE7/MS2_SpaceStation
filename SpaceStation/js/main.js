@@ -12,11 +12,11 @@
 /* Code below creates a Leaflet map*/
 const INITIAL_ZOOM_LATITUDE = 0;
 const INITIAL_ZOOM_LONGITUDE = 0;
-var mapZoomLevel = 2;
+const MAP_ZOOM_LEVEL = 2;
 
 const MY_MAP = L.map("iss-map").setView(
 	[INITIAL_ZOOM_LATITUDE, INITIAL_ZOOM_LONGITUDE],
-	mapZoomLevel
+	MAP_ZOOM_LEVEL
 );
 
 const ATTRIBUTION =
@@ -59,7 +59,7 @@ async function getISS() {
 
 	MARKER.setLatLng([latitude, longitude]);
 	if (firstTime) {
-		MY_MAP.setView([latitude, longitude], mapZoomLevel);
+		MY_MAP.setView([latitude, longitude], MAP_ZOOM_LEVEL);
 		firstTime = false;
 	}
 
