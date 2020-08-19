@@ -10,12 +10,12 @@
  */
 
 /* Code below creates a Leaflet map*/
-var initialZoomLatitude = 0;
-var initialZoomLongitude = 0;
+const INITIAL_ZOOM_LATITUDE = 0;
+const INITIAL_ZOOM_LONGITUDE = 0;
 var mapZoomLevel = 2;
 
 const MY_MAP = L.map("iss-map").setView(
-	[initialZoomLatitude, initialZoomLongitude],
+	[INITIAL_ZOOM_LATITUDE, INITIAL_ZOOM_LONGITUDE],
 	mapZoomLevel
 );
 
@@ -38,7 +38,7 @@ var issIcon = L.icon({
 	iconAnchor: [anchorHeight, anchorWidth],
 });
 
-const MARKER = L.marker([initialZoomLatitude, initialZoomLongitude], {
+const MARKER = L.marker([INITIAL_ZOOM_LATITUDE, INITIAL_ZOOM_LONGITUDE], {
 	icon: issIcon,
 }).addTo(MY_MAP);
 
@@ -104,5 +104,5 @@ $(".page-main .quotes-section .owl-carousel").owlCarousel({
 });
 
 $(document).ready(function () {});
-getISS();
-setInterval(getISS, 1000);
+//getISS();
+//setInterval(getISS, 1000);
