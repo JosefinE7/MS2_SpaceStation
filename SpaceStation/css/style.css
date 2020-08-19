@@ -151,18 +151,18 @@ html {
 
 .quotes-title {
 	padding-top: 55px;
-	padding-left: 125px;
+	padding-left: 150px;
 }
 
 .quotes-title p {
 	font-family: "Russo One", "Courier New", Courier, monospace;
 	font-weight: 700;
 	font-size: 25px;
-	letter-spacing: 10px;
+	letter-spacing: 5px;
 }
 
 .quotes-title p span {
-	letter-spacing: 10px;
+    font-weight: 500;
 	text-decoration: underline;
 	text-decoration-color: #ff0000;
 }
@@ -181,12 +181,16 @@ html {
 	padding: 125px 0;
 }
 
-.gallery-title {
+.gallery-title{
+    padding-top: 25px;
+}
+
+.gallery-title h1 {
 	font-family: "Russo One", "Courier New", Courier, monospace;
-	line-height: 15px;
-	font-weight: 800;
-	font-size: 75px;
-	letter-spacing: 15px;
+	font-size: 45px;
+    font-weight: 800;
+    line-height: 20px;
+	letter-spacing: 21px;
 }
 
 .gallery-item {
@@ -219,15 +223,15 @@ html {
 }
 
 .page-main .quotes-section .quote-header {
-	padding: 100px 75px 25px 50px;
+	padding: 100px 75px 25px 0;
 }
 
 .page-main .quotes-section .quotes-title h1 {
 	font-family: "Russo One", "Courier New", Courier, monospace;
 	line-height: 15px;
 	font-weight: 800;
-	font-size: 35px;
-	letter-spacing: 15px;
+	font-size: 40px;
+	letter-spacing: 10px;
 }
 
 .page-main .quotes-section .quotes-title h1 > span {
