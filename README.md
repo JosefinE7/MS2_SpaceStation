@@ -34,9 +34,9 @@ In the beginning of the project I had a pretty clear idea of the structure of th
 
   - This section contains a png drawing of the ISS and an information section with general information about the ISS.
 
-* RT section
+* ISS Real Time section
 
-  - This section contains two main elements: the first element is a Leaflet map that provides a live update of where the ISS is on a map, the second element provides the coordinates, altitude and velocity of the ISS in textform in real time.
+  - This section contains two main elements: the first element is a Leaflet map that provides a live update of where the ISS is on a map, the second element provides the coordinates, altitude and velocity of the ISS in textform in real time. The rate limit requests are limited to roughly 1 per second.
 
 * Gallery section
 
@@ -164,6 +164,8 @@ If you would like to download and work on this project separately, make sure to:
 - Navbar in copied from [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/), the copied code is clearly marked with comments at top and bottom.
 
 * The entire text about the ISS in the About section of the page is copied from [NASA's](https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-the-iss-58.html) the copied text is clearly marked with comments at top and bottom.
+
+* The API for the ISS Real Time map is from [WhereTheIss.at](https://wheretheiss.at/w/developer)
 
 ### Media
 
