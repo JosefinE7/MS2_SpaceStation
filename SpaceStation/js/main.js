@@ -66,6 +66,14 @@ async function getISS() {
 	document.getElementById("alt").textContent = altitude.toFixed(DECIMAL_AMOUNT);
 	document.getElementById("vel").textContent = velocity.toFixed(DECIMAL_AMOUNT);
 }
+/** On the advice of my mentor on this project: I aim to create a larger number of 
+ * smaller functions, instead of my now smaller number large functions, to execute 
+ * the retrieving and displaying of the information from the ISS API. This to make 
+ * it easier to edit in the code in the future as well as easier for any future 
+ * developer looking to understand and use the code. Because of time constraints 
+ * I wasn’t able to do this before the project had to be handed in. I aim to execute
+ * this as soon as possible in the cloned version of this project. 
+ */
 
 // End ISS Real Time Map
 
