@@ -51,7 +51,7 @@ async function getISS() {
 	const RESPONSE = await fetch(ISS_URL);
 	const DATA = await RESPONSE.json();
 	const { latitude, longitude, altitude, velocity } = DATA;
-	var decimalAmount = 3;
+	const DECIMAL_AMOUNT = 3;
 
 	MARKER.setLatLng([latitude, longitude]);
 	if (firstTime) {
@@ -59,12 +59,12 @@ async function getISS() {
 		firstTime = false;
 	}
 
-	document.getElementById("lat").textContent = latitude.toFixed(decimalAmount);
+	document.getElementById("lat").textContent = latitude.toFixed(DECIMAL_AMOUNT);
 	document.getElementById("long").textContent = longitude.toFixed(
-		decimalAmount
+		DECIMAL_AMOUNT
 	);
-	document.getElementById("alt").textContent = altitude.toFixed(decimalAmount);
-	document.getElementById("vel").textContent = velocity.toFixed(decimalAmount);
+	document.getElementById("alt").textContent = altitude.toFixed(DECIMAL_AMOUNT);
+	document.getElementById("vel").textContent = velocity.toFixed(DECIMAL_AMOUNT);
 }
 // End ISS Real Time Map
 
