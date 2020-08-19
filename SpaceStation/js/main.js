@@ -1,15 +1,8 @@
-/**
- * Code below is copied from
- * https://wheretheiss.at/
- * in conjunction with Leaflet Library
- * https://leafletjs.com/examples/quick-start/
- * with additional assistance from the video
- * https://www.youtube.com/watch?v=nZaZ2dB6pow&t=10s
- * to provide a map and live updates
- * to the RT-section of page.
- */
-
-/* Code below creates a Leaflet map*/
+// Start ISS Real Time Map 
+/** 
+ * Code below creates a Leaflet map
+ * from https://leafletjs.com/examples/quick-start/
+*/ 
 const INITIAL_ZOOM_LATITUDE = 0;
 const INITIAL_ZOOM_LONGITUDE = 0;
 const MAP_ZOOM_LEVEL = 2;
@@ -22,7 +15,11 @@ const MY_MAP = L.map("iss-map").setView(
 const ATTRIBUTION =
 	'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'; // obligatory as per the copyright notice
 
-const TILE_URL = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"; // url is a format of a url for any given map tile from Open Street map
+/**
+ * Url below is a format of a url for any given map tile from Open Street map 
+ * for more info visit: https://leafletjs.com/reference-1.6.0.html#tilelayer
+ */
+const TILE_URL = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"; // url is  for more info
 const TILES = L.tileLayer(TILE_URL, { ATTRIBUTION });
 TILES.addTo(MY_MAP);
 
@@ -40,17 +37,16 @@ var issIcon = L.icon({
 
 const MARKER = L.marker([INITIAL_ZOOM_LATITUDE, INITIAL_ZOOM_LONGITUDE], {
 	icon: issIcon,
-}).addTo(MY_MAP);
-
-/** Code below fetches the information
- * from the iss api and displays it
- * on the page through Leaflet map and
- * live coordinates
- */
+}).addTo(MY_MAP); 
 
 const ISS_URL = "https://api.wheretheiss.at/v1/satellites/25544";
 
 let firstTime = true;
+/** 
+ * Code below fetches the information from the iss api and displays it
+ * on the page through Leaflet map and live coordinates. API at
+ * https://wheretheiss.at/
+ */
 async function getISS() {
 	const RESPONSE = await fetch(ISS_URL);
 	const DATA = await RESPONSE.json();
@@ -70,21 +66,21 @@ async function getISS() {
 	document.getElementById("alt").textContent = altitude.toFixed(decimalAmount);
 	document.getElementById("vel").textContent = velocity.toFixed(decimalAmount);
 }
+// End ISS Real Time Map
 
 /**
- * Code below is copied from Magnific Popup
+ * Code below is from Magnific Popup
  * https://dimsemenov.com/plugins/magnific-popup/
  * and it provides a "Lightbox Gallery" effect
  * to gallery-section
  */
-
 $(".gallery-section .grid .test-popup-link").magnificPopup({
 	type: "image",
 	gallery: { enabled: true },
 });
 
 /**
- * Code below is copied from Owl Carousel
+ * Code below is from Owl Carousel
  * https://owlcarousel2.github.io/OwlCarousel2/demos/basic.html
  * and it provides a carousel effect to
  * quotes-section
