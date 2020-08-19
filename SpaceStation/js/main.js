@@ -19,20 +19,20 @@ const ATTRIBUTION =
  * Url below is a format of a url for any given map tile from Open Street map 
  * for more info visit: https://leafletjs.com/reference-1.6.0.html#tilelayer
  */
-const TILE_URL = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"; // url is  for more info
+const TILE_URL = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 const TILES = L.tileLayer(TILE_URL, { ATTRIBUTION });
 TILES.addTo(MY_MAP);
 
 /* Code below creates a marker with custom icon*/
-var iconHeight = 50;
-var iconWidth = 32;
-var anchorHeight = 25;
-var anchorWidth = 16;
+const ICON_HEIGHT = 50;
+const ICON_WIDTH = 32;
+const ANCHOR_HEIGHT = 25;
+const ANCHOR_WIDTH = 16;
 
 var issIcon = L.icon({
 	iconUrl: "SpaceStation/img/iss-map-icon.png",
-	iconSize: [iconHeight, iconWidth],
-	iconAnchor: [anchorHeight, anchorWidth],
+	iconSize: [ICON_HEIGHT, ICON_WIDTH],
+	iconAnchor: [ANCHOR_HEIGHT, ANCHOR_WIDTH],
 });
 
 const MARKER = L.marker([INITIAL_ZOOM_LATITUDE, INITIAL_ZOOM_LONGITUDE], {
@@ -66,6 +66,7 @@ async function getISS() {
 	document.getElementById("alt").textContent = altitude.toFixed(DECIMAL_AMOUNT);
 	document.getElementById("vel").textContent = velocity.toFixed(DECIMAL_AMOUNT);
 }
+
 // End ISS Real Time Map
 
 /**
@@ -99,6 +100,7 @@ $(".page-main .quotes-section .owl-carousel").owlCarousel({
 	},
 });
 
-$(document).ready(function () {});
-//getISS();
-//setInterval(getISS, 1000);
+$(document).ready(function () {
+    getISS();
+    setInterval(getISS, 1000);
+});
