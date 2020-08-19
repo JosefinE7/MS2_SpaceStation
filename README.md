@@ -6,7 +6,7 @@ NASA currently is working on a plan to explore other worlds. The space station i
 
 ## UX
 
-When making this website, considering time and skill constraints I wanted to make a website that was very user friendly, with this in mind I decided to make the website a One-page website to allow the user to just scroll through the content. I wanted to be able to show a couple of different aspects of the ISS and I decided that this would work the best if I used a couple of different elements on the page.
+When making this website, considering time and skill constraints I wanted to make a website that was very user friendly, with this in mind I decided to make the website a Single Page website to allow the user to just scroll through the content. I wanted to be able to show a couple of different aspects of the ISS and I decided that this would work the best if I used a couple of different elements on the page.
 The website is intended for a user who has little to no knowledge about the ISS and is looking for an introduction to the subject, the page aims to provide the user with an basic understanding of a couple different aspects of the ISS: basic information, pictures, real time location and thoughts from some astronauts who have visited the ISS. There is only one big chunk of text and that is in the “About section”, which gives a brief explanation of what the ISS is and what the goal of the projects is. This text is written in plain english to make it understandable for a large audience.
 
 **User Stories**
