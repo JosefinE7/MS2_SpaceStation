@@ -12,41 +12,41 @@ html {
 	scroll-behavior: smooth;
 }
 
-.page-header .menu .navbar {
+.menu .navbar {
 	border-bottom: 1px #778899;
 	box-shadow: 2px 5px 18px #888888;
 }
 
-.page-header .menu .navbar .navbar-brand {
+.menu .navbar .navbar-brand {
 	padding: 0 32px 0 80px;
 	font-family: "Russo One", "Courier New", Courier, monospace;
 }
 
-.page-header .menu .navbar {
+.menu .navbar {
 	padding: 16px 320px;
 }
 
-.page-header .menu .navbar .navbar-brand {
+.menu .navbar .navbar-brand {
 	font-size: 45px;
 	text-transform: uppercase;
 	font-weight: 900;
 }
 
-.page-header .menu .nav-item .nav-link {
+.menu .nav-item .nav-link {
 	font-family: "Coda", "Courier New", Courier, monospace;
 	font-weight: 400;
 	padding: 16px;
 	color: #2f4f4f;
 }
 
-.page-header .menu .navbar-nav .active a {
+.menu .navbar-nav .active a {
 	background: #ff0000;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
 }
 
-.page-header .menu .navbar-nav a:hover {
+.menu .navbar-nav a:hover {
 	background: #ff0000;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -57,25 +57,25 @@ html {
 
 /* start page top area */
 
-.page-main .page-top {
+.page-top {
 	background: url("https://JosefinE7.github.io/MS2_SpaceStation/SpaceStation/img/background.png");
 	background-position: 0% 50%;
 	padding: 75px 320px 150px 320px;
 }
 
-.page-main .page-top .page-title h4 {
+.page-title h4 {
 	padding-top: 35%;
 	font-size: 25px;
 	font-family: "Russo One", "Courier New", Courier, monospace;
 }
 
-.page-main .page-top .page-title h1 {
+.page-title h1 {
 	font-size: 75px;
 	color: #ff0000;
 	font-family: "Russo One", "Courier New", Courier, monospace;
 }
 
-.page-main .page-top .page-title h1::after {
+.page-title h1::after {
 	content: "";
 	height: 2px;
 	width: 10vw;
@@ -83,13 +83,13 @@ html {
 	display: inline-block;
 }
 
-.page-main .page-top .page-title h3 {
+.page-title h3 {
 	font-size: 35px;
 	font-weight: 700; /*download this font so it works fw 500*/
 	font-family: "Russo One", "Courier New", Courier, monospace;
 }
 
-.page-main .page-top .banner-image > img {
+.banner-image > img {
 	padding-top: 75px;
 	padding-left: 80px;
 }
@@ -110,12 +110,12 @@ html {
 
 /* start About section*/
 
-.page-main .about-section {
+.about-section {
 	background: url("https://JosefinE7.github.io/MS2_SpaceStation/SpaceStation/img/background.png");
 	padding: 100px 75px;
 }
 
-.page-main .about-section .about-text h2 > span {
+.about-text h2 > span {
 	display: block;
 	font-weight: 800;
 	font-size: 30px;
@@ -125,7 +125,7 @@ html {
 	padding-top: 0;
 }
 
-.page-main .about-section .about-text .about-information {
+.about-text .about-information {
 	font-family: "Coda", "Courier New", Courier, monospace;
 }
 
@@ -133,35 +133,35 @@ html {
 
 /* start ISS Real Time section*/
 
-.page-main .RT-section {
+.RT-section {
 	background: url("https://JosefinE7.github.io/MS2_SpaceStation/SpaceStation/img/background.png");
 	padding: 125px 0;
 }
 
-.page-main .RT-section .map {
+.RT-section .map {
 	padding: 15px 0;
 }
 
-.page-main .RT-section .map h1 {
+.map h1 {
 	font-family: "Russo One", "Courier New", Courier, monospace;
 	font-weight: 800;
 	font-size: 30px;
 	letter-spacing: 21px;
 }
 
-.page-main .RT-section .quotes-title {
+.quotes-title {
 	padding-top: 55px;
 	padding-left: 125px;
 }
 
-.page-main .RT-section .quotes-title p {
+.quotes-title p {
 	font-family: "Russo One", "Courier New", Courier, monospace;
 	font-weight: 700;
 	font-size: 25px;
 	letter-spacing: 10px;
 }
 
-.page-main .RT-section .quotes-title p span {
+.quotes-title p span {
 	letter-spacing: 10px;
 	text-decoration: underline;
 	text-decoration-color: #ff0000;
